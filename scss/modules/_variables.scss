@@ -1,0 +1,26 @@
+@font-face {
+    font-family: FU;
+    src: url("../assets/fonts/Beautiful\ Heart.ttf");
+}
+
+@font-face {
+    font-family: FD;
+    src: url("../assets/fonts/LinLibertine_R.ttf");
+}
+
+@font-face {
+    font-family: FT;
+    src: url("../assets/fonts/LTRemark-May2021.ttf");
+}
+
+// TIPOGRAFÍAS
+$FUno: "FU";
+$FDos: "FD";
+$FTres: "FT";
+
+
+// PALETA DE COLORES
+$c-principal: #711C25;
+$c-secundario: #f9f6f4;
+$c-fondo: #99AA8B;
+$c-bG: #311115;
