@@ -38,7 +38,10 @@
         text-decoration: none;
         color: $c-secundario;
         background-color: $c-fondo;
+        &:hover{
 
+            background-color: $c-principal;
+        }
     }
     h5{
         font-family: $FDos;
