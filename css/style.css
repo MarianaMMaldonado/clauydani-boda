@@ -69,7 +69,7 @@
 .lovestory h2 {
   text-align: center;
   font-family: "FD";
-  color: #f9f6f4;
+  color: #711C25;
   font-size: 2.5rem;
 }
 
@@ -172,12 +172,8 @@ h4 a {
 .hospedaje h2 {
   text-align: center;
   color: #f9f6f4;
-}
-.hospedaje h2 a {
-  text-decoration: none;
   font-family: "FD";
   color: #711C25;
-  padding: 1rem;
   font-size: 2.5rem;
 }
 .hospedaje a {
@@ -200,20 +196,11 @@ h4 a {
   background-size: contain;
   scroll-margin-top: 9ex;
 }
-.mDregalos .mRegalos {
+.mDregalos h2 {
   text-align: center;
-  color: #f9f6f4;
-}
-.mDregalos .mRegalos a {
-  text-decoration: none;
+  color: #711C25;
   font-family: "FD";
-  color: #f9f6f4;
-  padding: 1rem;
   font-size: 2.5rem;
-}
-.mDregalos .mRegalos p {
-  font-family: "FT";
-  color: #f9f6f4;
 }
 .mDregalos h3 {
   text-align: center;
@@ -240,13 +227,10 @@ h4 a {
 }
 .confi h2 {
   text-align: center;
-}
-.confi h2 a {
   font-family: "FD";
-  color: #f9f6f4;
+  color: #711C25;
   padding: 1rem;
   font-size: 2.5rem;
-  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
