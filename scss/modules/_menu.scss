@@ -1,12 +1,40 @@
-.menu{
-    position: fixed;
-    background-color: $c-fondo;
-    width: 100%;
-    .mono{
-        padding-left: 1.5%;
-        .color{
-            font-family: $FDos;
-            color: $c-secundario;
+header{
+    .nav{
+        position: fixed;
+        width: 100%;
+        background-color: $c-tercera;
+        display: flex;  
+        align-items: center;
+        justify-content: space-between;
+        padding: 1px;
+        transition: all 0.5s ease;
+    }
+    .nav.active{
+        padding: .05%;
+
+    }
+    .logo{
+        padding: 1%;
+    }
+    .menu{
+        display: flex;
+    }
+    .menu li{
+        list-style: none;
+        margin:10px;
+    }
+    .menu li a{
+        color: $c-secundario;
+        text-decoration: none;
+        font-family: $FTres;
+        transition: all 0.5s ease;
+        &:hover{
+            padding: 5px 10px;
+            background-color: $c-principal;
+            border-radius: 15px;
         }
+    }
+    .scrol{
+        height: 100%;
     }
 }
