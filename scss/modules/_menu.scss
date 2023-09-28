@@ -2,19 +2,16 @@ header{
     .nav{
         position: fixed;
         width: 100%;
-        background-color: $c-tercera;
+        background-color: $c-bG;
         display: flex;  
         align-items: center;
-        justify-content: space-between;
-        padding: 1px;
+        justify-content: center;
+        padding: 0px;
         transition: all 0.5s ease;
     }
     .nav.active{
         padding: .05%;
 
-    }
-    .logo{
-        padding: 1%;
     }
     .menu{
         display: flex;
@@ -26,11 +23,11 @@ header{
     .menu li a{
         color: $c-secundario;
         text-decoration: none;
-        font-family: $FTres;
+        font-family: $FDos;
         transition: all 0.5s ease;
         &:hover{
             padding: 5px 10px;
-            background-color: $c-principal;
+            background-color: $c-fondo;
             border-radius: 15px;
         }
     }
