@@ -20,30 +20,32 @@
             img{
                 width: 250px;
             }
-            h2{
-                color: $c-secundario;
-                margin-bottom: 25px;
-                font-family: $FDos;
-            }
             p{
                 color: $c-secundario;
                 font-family: $FTres;
                 margin-bottom: 10px;
+                text-align: center;
             }
             .red-social{
                 a{
-                    display: inline-block;
+                    display: flex;
+                    text-align: center;
+                    justify-content: center;
+                    align-items: center;
                     text-decoration: none;
                     width: 45px;
                     height: 45px;
                     line-height: 45px;
                     margin-right: 10px;
-                    background-color: $c-fondo;
+                    background-color: $c-principal;
                     text-align: center;
+                    align-items: center;
                     transition: all 300ms ease;
                     color: $c-secundario;
+                    border-radius: 14px;
                     &:hover{
-                        background-color: $c-tercera;
+                        background-color: $c-fondo;
+                        color: $c-secundario;
                     }
                 }
             }
@@ -56,3 +58,4 @@
         color: $c-secundario;
     }
 }
+

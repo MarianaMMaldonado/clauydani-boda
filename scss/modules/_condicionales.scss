@@ -1,1 +1,67 @@
 //MEDIA QUERIS
+
+@media screen and (max-width:800px) {
+    .pieDpagina{
+        width: 100%;
+        .grupo-1{
+            width: 90%;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 30px;
+            padding: 35px 0px;
+         }
+    }
+}
+
+@media screen and (max-width:800px) {
+    .lovestory{
+        scroll-margin-top: 7.4ex;
+        }    
+    .pLoveStory{
+        h4{
+            font-family: $FTres;
+            a{
+                font-size: .5rem;
+                }
+            }
+        }
+
+}
+
+@media screen and (max-width:800px){
+    .evento{
+        scroll-margin-top: 7.6ex;
+        a{
+            font-size: .5rem;
+        }
+    }
+}
+
+@media screen and (max-width:800px){
+    .hospedaje{
+        scroll-margin-top: 7.4ex; 
+        a{
+            font-size: .5rem;
+        } 
+    }
+}
+
+@media screen and (max-width:800px){
+    .mDregalos{
+        scroll-margin-top: 7.4ex;
+        h3{
+            text-align: center;
+            color: $c-secundario;
+            a{
+                font-size: .5rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:800px){
+    .confi{
+        a{
+            font-size: .5rem;
+        }
+    }
+}
