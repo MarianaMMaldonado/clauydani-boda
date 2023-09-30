@@ -26,23 +26,8 @@
             border-radius: 15px;
         }
     }
-    h5{
-        font-family: $FDos;
-        color: #4F896B;
-        ul{
-            li{
-                font-family: $FTres;
-                color: $c-principal;
-            }
-            
-        }
-    }
-    h6{
-        font-family: $FTres;
-        color: $c-secundario;
-        padding-left: 15px;
-        padding-right: 15px;
-        text-align: center;
-        font-size: 1.2rem;
-    }
+}
+
+.pEvento{
+    background-image: url("../assets/img/fondos.png");
 }
